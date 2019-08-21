@@ -15,6 +15,11 @@
   .header {
     height: 10px;
   }
+  &:focus {
+    outline: none;
+    border-style: none;
+    box-shadow: none;
+  }
   &:hover {
     border-color: $selected;
     color: $selected;

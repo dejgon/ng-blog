@@ -1,3 +1,3 @@
-<div class="button noselect">
-    <a routerLink="/contact"><p>{{text}}</p></a>
+<div class="button noselect" [routerLink]="link" (click)="func()">
+    <p>{{text}}</p>
 </div>

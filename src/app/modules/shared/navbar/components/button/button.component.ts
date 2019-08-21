@@ -12,5 +12,8 @@ export class ButtonComponent implements OnInit {
 
   ngOnInit() {
   }
+  func(){
+    console.log(this.link);
+  }
 
 }
