@@ -1,0 +1,34 @@
+@import "../../../../colors.scss";
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.nav-logo {
+  display: flex;
+  flex-direction: column;
+  color: $navbar-logo;
+  padding-left: 0;
+  span {
+    //align-self: center;
+    font-family: "Righteous", cursive;
+    font-size: 60px;
+  }
+  .small-text {
+    //align-self: center;
+    font-family: "Righteous", cursive;
+    font-size: 20px;
+    color: #68C3D4;
+    margin-top: -10px;
+  }
+}
+.buttons-right {
+  display: flex;
+  align-items: center;
+  color: $navbar-logo;
+}

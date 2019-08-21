@@ -1,0 +1,16 @@
+footer {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  width: 100%;
+  text-align: center;
+  background: rgba(black, 0.9);
+  .pad {
+    padding: 50px;
+  }
+  .small {
+      font-size: 15px;
+      font-weight: normal;
+  }
+}
